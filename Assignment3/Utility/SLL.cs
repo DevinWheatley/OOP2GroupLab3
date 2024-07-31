@@ -263,7 +263,19 @@ namespace Assignment3
         /// <exception cref="IndexOutOfRangeException">Thrown if index is negative or larger than size - 1 of list.</exception>
         public User GetValue(int index)
         {
+            if (index < 0 || index >= size)
+            {
+                throw new IndexOutOfRangeException("Index out of range");
+            }
 
+            Node pointer = head;
+
+            for (int i = 0; i < index; i++)
+            {
+                pointer = pointer.Next;
+            }
+
+            return pointer.Data;
         }
 
         /// <summary>
@@ -273,7 +285,21 @@ namespace Assignment3
         /// <returns>First of index of node with matching value or -1 if not found.</returns>
         public int IndexOf(User value)
         {
+            Node pointer = head;
+            int index = 0;
 
+            while (pointer != null)
+            {
+                if (pointer.Data.Equals(value))
+                {
+                    return index;
+                }
+
+                pointer = pointer.Next;
+                index++;
+            }
+
+            return -1;
         }
 
         /// <summary>
@@ -283,7 +309,7 @@ namespace Assignment3
         /// <returns>True if element exists with value.</returns>
         public bool Contains(User value)
         {
-
+            return IndexOf(value) != -1;
         }
         
         /// <summary>
