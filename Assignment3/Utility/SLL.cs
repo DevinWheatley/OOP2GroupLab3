@@ -237,7 +237,7 @@ namespace Assignment3
             {
                 RemoveFirst();
                 return;
-            }g
+            }
 
             if (index == size - 1)
             {
@@ -284,6 +284,30 @@ namespace Assignment3
         public bool Contains(User value)
         {
 
+        }
+        
+        /// <summary>
+        /// Go through nodes and reverse the order of the list.
+        /// </summary>
+        public void Reverse(User value)
+        {
+            if (size == 0 || size == 1) // If list is empty or only has one Node then there's nothing to reverse
+            {
+                return;
+            }
+            
+            Node pointerPrevious = null;
+            Node pointer = head;
+            Node pointerNext = null;
+
+            while (pointer != null)
+            {
+                pointerNext = pointer.Next; // Save the next Node in pointerNext
+                pointer.Next = pointerPrevious; // Redirect the current Node to the Node preceding it
+                pointerPrevious = pointer; // Save the current Node in pointerPrevious
+                pointer = pointerNext; // Move the pointer to the next Node
+            }
+            head = pointerPrevious; // Updates Head Node
         }
     }
 }
