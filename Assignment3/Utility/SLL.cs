@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -7,6 +8,12 @@ using System.Threading.Tasks;
 
 namespace Assignment3
 {
+     public class CannotRemoveException : Exception
+    {
+        public CannotRemoveException() : base() { }
+        public CannotRemoveException(string message) : base(message) { }
+        public CannotRemoveException(string message, Exception innerException) : base(message) { }
+    }
     public class SLL : ILinkedListADT
     {
         // Attributes
@@ -164,8 +171,18 @@ namespace Assignment3
         /// </summary>
         /// <exception cref="CannotRemoveException">Thrown if list is empty.</exception>
         public void RemoveFirst()
-        {
+        {   
+            // check if the first data is empty, throw a message
+            if (this.IsEmpty())
+            {
+                throw new CannotRemoveException("The list is empty.");
+            }
+            if (this.head != null)  // if the first node has data, remove it
+            {
+                this.head = this.head.Next;
 
+                size--; // update size of the list
+            }
         }
 
         /// <summary>
@@ -174,7 +191,28 @@ namespace Assignment3
         /// <exception cref="CannotRemoveException">Thrown if list is empty.</exception>
         public void RemoveLast()
         {
+            // if the list is empty, throw a message
+            if (this.IsEmpty())
+            {
+                throw new CannotRemoveException("The list is empty.");
+            }
 
+            // if the list has only one node
+            if (this.head.Next == null)
+            {
+                this.head = null; // make head empty
+                size--;  // update size of the list
+                return;
+            }
+
+            Node pointer = this.head;
+            // move to the second last node using while loop
+            while (pointer.Next.Next != null)
+            {
+                pointer = pointer.Next; // pointer is the second last node
+            }
+            pointer.Next = null; // give null to the last node and remove from the list
+            size--;
         }
 
         /// <summary>
@@ -184,7 +222,37 @@ namespace Assignment3
         /// <exception cref="IndexOutOfRangeException">Thrown if index is negative or larger than size - 1 of list.</exception>
         public void Remove(int index)
         {
+            if (index < 0 || index > size - 1)
+            {
+                throw new IndexOutOfRangeException("Index out of range");
+            }
 
+            if (this.IsEmpty())
+            {
+                throw new CannotRemoveException("The list is empty.");
+            }
+
+            // remove the first element
+            if (index == 0)
+            {
+                RemoveFirst();
+                return;
+            }g
+
+            if (index == size - 1)
+            {
+                RemoveLast();
+                return;
+            }
+            
+            //remove a specific index
+            Node current = this.head;
+            for (int i = 0; i < index -1; i++)
+            {
+                current = current.Next;
+            }
+            current.Next = current.Next.Next;
+            size--;
         }
 
         /// <summary>
