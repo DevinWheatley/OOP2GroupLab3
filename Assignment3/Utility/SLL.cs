@@ -106,7 +106,7 @@ namespace Assignment3
         {
             // Check that the index is in range
             // Throws exception if not
-            if (index > 0 || index > size)
+            if (index < 0 || index > size)
             {
                 throw new IndexOutOfRangeException("Index out of range");
             }
@@ -118,14 +118,12 @@ namespace Assignment3
             if (index == 0)
             {
                 AddFirst(value);
-                size++; // update size of the list
             }
             // Index = size, will run AddLast(value)
             // Outcome = Value added to the end of the list
-            if (index == size)
+            else if (index == size)
             {
                 AddLast(value);
-                size++; // update size of the list
             }
             else
             {
@@ -137,6 +135,7 @@ namespace Assignment3
                 newNode.Next = pointer.Next; // newNode and pointer point to the same Node
                 pointer.Next = newNode; // reroutes the pointer.Netx to the newNode
             }
+            size++; // update size of the list
         }
 
         /// <summary>
@@ -315,7 +314,7 @@ namespace Assignment3
         /// <summary>
         /// Go through nodes and reverse the order of the list.
         /// </summary>
-        public void Reverse(User value)
+        public void Reverse()
         {
             if (size == 0 || size == 1) // If list is empty or only has one Node then there's nothing to reverse
             {

@@ -93,5 +93,10 @@ namespace Assignment3
         /// <param name="value">Value to find index of.</param>
         /// <returns>True if element exists with value.</returns>
         bool Contains(User value);
+
+        /// <summary>
+        /// Go through nodes and reverse the order of the list.
+        /// </summary>
+        void Reverse();
     }
 }
