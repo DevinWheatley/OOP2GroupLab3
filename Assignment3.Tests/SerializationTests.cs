@@ -52,6 +52,7 @@ namespace Assignment3.Tests
                 User expected = users.GetValue(i);
                 User actual = deserializedUsers.GetValue(i);
 
+                
                 Assert.AreEqual(expected.Id, actual.Id);
                 Assert.AreEqual(expected.Name, actual.Name);
                 Assert.AreEqual(expected.Email, actual.Email);

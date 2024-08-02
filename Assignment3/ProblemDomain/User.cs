@@ -22,6 +22,7 @@ namespace Assignment3
         /// <param name="name">Name</param>
         /// <param name="email">Email</param>
         /// <param name="password">Plain-text password</param>
+        public User() { }
         public User(int id, string name, string email, string password)
         {
             Id = id;
