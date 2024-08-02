@@ -148,12 +148,20 @@ namespace Assignment3
         {
             // Check that the index is in range
             // Throws exception if not
-            if (index > 0 || index > size)
+            if (index < 0 || index > size)
             {
                 throw new IndexOutOfRangeException("Index out of range");
             }
 
-            Node newNode = new Node(value);
+            Node pointer = head;
+
+            for (int i = 0; i < index; i++)
+            {
+                pointer = pointer.Next;
+            }
+
+            pointer.Data = value;
+
         }
 
         /// <summary>

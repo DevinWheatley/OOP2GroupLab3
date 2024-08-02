@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\",
+  "WorkspaceRootPath": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B57A8620-B215-4F27-8B18-3EA02B0A2575}|Assignment3.Tests\\Assignment3.Tests.csproj|c:\\users\\devin\\onedrive\\desktop\\assignment3skeleton\\assignment3.tests\\serializationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B57A8620-B215-4F27-8B18-3EA02B0A2575}|Assignment3.Tests\\Assignment3.Tests.csproj|c:\\users\\yongi\\source\\repos\\oop2grouplab3\\assignment3.tests\\serializationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B57A8620-B215-4F27-8B18-3EA02B0A2575}|Assignment3.Tests\\Assignment3.Tests.csproj|solutionrelative:assignment3.tests\\serializationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\assignment3\\utility\\sll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\assignment3\\utility\\sll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\utility\\sll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\assignment3\\utility\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\utility\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|c:\\users\\devin\\onedrive\\desktop\\assignment3skeleton\\assignment3\\utility\\ilinkedlistadt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\utility\\ilinkedlistadt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\assignment3\\problemdomain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\assignment3\\problemdomain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\problemdomain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\assignment3\\utility\\ilinkedlistadt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\utility\\ilinkedlistadt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\assignment3\\utility\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F40A29F8-F6D6-497D-89D6-970CBC8CF0CF}|Assignment3\\Assignment3.csproj|solutionrelative:assignment3\\utility\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ILinkedListADT.cs",
-              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\Utility\\ILinkedListADT.cs",
-              "RelativeDocumentMoniker": "Assignment3\\Utility\\ILinkedListADT.cs",
-              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\Utility\\ILinkedListADT.cs",
-              "RelativeToolTip": "Assignment3\\Utility\\ILinkedListADT.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAuwFUAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T07:59:23.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SerializationTests.cs",
-              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3.Tests\\SerializationTests.cs",
-              "RelativeDocumentMoniker": "Assignment3.Tests\\SerializationTests.cs",
-              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3.Tests\\SerializationTests.cs",
-              "RelativeToolTip": "Assignment3.Tests\\SerializationTests.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAmwMwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T19:30:23.976Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Node.cs",
-              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\Utility\\Node.cs",
-              "RelativeDocumentMoniker": "Assignment3\\Utility\\Node.cs",
-              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\Utility\\Node.cs",
-              "RelativeToolTip": "Assignment3\\Utility\\Node.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:47:59.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SLL.cs",
-              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\Utility\\SLL.cs",
-              "RelativeDocumentMoniker": "Assignment3\\Utility\\SLL.cs",
-              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\Utility\\SLL.cs",
-              "RelativeToolTip": "Assignment3\\Utility\\SLL.cs",
-              "ViewState": "AQIAAAYBAAAAAAAAAAA7wBgBAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T21:47:52.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\ProblemDomain\\User.cs",
+              "DocumentMoniker": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\ProblemDomain\\User.cs",
               "RelativeDocumentMoniker": "Assignment3\\ProblemDomain\\User.cs",
-              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\ProblemDomain\\User.cs",
+              "ToolTip": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\ProblemDomain\\User.cs",
               "RelativeToolTip": "Assignment3\\ProblemDomain\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T23:28:24.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILinkedListADT.cs",
+              "DocumentMoniker": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\Utility\\ILinkedListADT.cs",
+              "RelativeDocumentMoniker": "Assignment3\\Utility\\ILinkedListADT.cs",
+              "ToolTip": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\Utility\\ILinkedListADT.cs",
+              "RelativeToolTip": "Assignment3\\Utility\\ILinkedListADT.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA5wFUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T07:59:23.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SLL.cs",
+              "DocumentMoniker": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\Utility\\SLL.cs",
+              "RelativeDocumentMoniker": "Assignment3\\Utility\\SLL.cs",
+              "ToolTip": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\Utility\\SLL.cs",
+              "RelativeToolTip": "Assignment3\\Utility\\SLL.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAuwJUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:47:52.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SerializationTests.cs",
+              "DocumentMoniker": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3.Tests\\SerializationTests.cs",
+              "RelativeDocumentMoniker": "Assignment3.Tests\\SerializationTests.cs",
+              "ToolTip": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3.Tests\\SerializationTests.cs",
+              "RelativeToolTip": "Assignment3.Tests\\SerializationTests.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAIwHwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T19:30:23.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\Utility\\Node.cs",
+              "RelativeDocumentMoniker": "Assignment3\\Utility\\Node.cs",
+              "ToolTip": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\Utility\\Node.cs",
+              "RelativeToolTip": "Assignment3\\Utility\\Node.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:47:59.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\Program.cs",
               "RelativeDocumentMoniker": "Assignment3\\Program.cs",
-              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\Assignment3Skeleton\\Assignment3\\Program.cs",
+              "ToolTip": "C:\\Users\\yongi\\source\\repos\\OOP2GroupLab3\\Assignment3\\Program.cs",
               "RelativeToolTip": "Assignment3\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
